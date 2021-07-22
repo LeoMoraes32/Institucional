@@ -345,11 +345,11 @@ nav.show div.icon-x {
     margin-right: 1.5rem;
 }
 
-#about ul.grid{
+#about ul.grid {
     gap: 1rem;
 }
 
-#about ul li{
+#about ul li {
     display: flex;
     align-items: center;
 
@@ -358,13 +358,19 @@ nav.show div.icon-x {
     
 }
 
-#about ul li i{
+#about ul li i {
     color: var(--verde);
 
     font-size: 1.5rem;
     margin-right: 0.625rem;
     display: inline;
     align-items: center;
+}
+
+#about ul li:hover {
+
+    transition: 0.5s;
+    transform: translateY(-8px);
 
 }
 /*======== SERVICES ========*/
